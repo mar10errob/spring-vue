@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mario</groupId>
-	<artifactId>vue-example</artifactId>
+	<artifactId>spring-vue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>vue-example</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-vue</name>
+	<description>Base project for Spring Boot with Vuejs</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
