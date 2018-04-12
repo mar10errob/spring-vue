@@ -1,7 +1,7 @@
 const ceeccServer = {}
 
 const server = ''
-// const server = '/SSC_HSC'
+// const server = '/spring-vue'
 
 const domains = {}
 
