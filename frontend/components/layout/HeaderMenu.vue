@@ -36,7 +36,3 @@
         name: "header-menu"
     }
 </script>
-
-<style scoped>
-
-</style>

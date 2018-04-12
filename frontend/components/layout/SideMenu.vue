@@ -62,7 +62,3 @@
         name: "side-menu"
     }
 </script>
-
-<style scoped>
-
-</style>

@@ -12,10 +12,6 @@
 
 <script>
     export default {
-        name: "AboutApp"
+        name: "about-app"
     }
 </script>
-
-<style scoped>
-
-</style>

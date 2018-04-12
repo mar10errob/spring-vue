@@ -19,11 +19,9 @@
     export default {
         components: {
             HeaderMenu,
-            SideMenu},
+            SideMenu
+        },
         name: "app",
         comonents: { HeaderMenu, SideMenu }
     }
 </script>
-
-<style lang="scss">
-</style>

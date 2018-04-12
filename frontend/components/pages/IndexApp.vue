@@ -20,7 +20,7 @@
     import axios from 'axios'
 
     export default {
-        name: "IndexApp",
+        name: "index-app",
         data () {
             return {
                 usuario: {}
@@ -34,7 +34,3 @@
         }
     }
 </script>
-
-<style scoped>
-
-</style>
