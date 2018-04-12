@@ -1,28 +1,28 @@
 <template>
     <div class="sidebar" style="position: fixed;">
         <div class="logo">
-            <a th:href="@{/ceecc}" class="logo-text" style="white-space: normal; line-height: normal;">
-                CEECC
+            <a href="#" class="logo-text" style="white-space: normal; line-height: normal;">
+                Spring-vue
             </a>
         </div>
         <div class="logo logo-mini">
             <div style="margin: auto; width: 32px; height: 32px;">
-                <img th:src="@{/img/favicon.png}" alt="" class="img-responsive">
+                <img src="#" alt="" class="img-responsive">
             </div>
         </div>
 
         <div class="sidebar-wrapper scrollStyle">
-            <div class="user" th:with="user = ${#authentication.principal}">
+            <div class="user">
                 <div class="photo">
                     <!--<img th:src="${(#mvc.url('CC#fotoEmpleado')).arg(0, user.id).build()}" class="img-responsive"/>-->
                 </div>
                 <div class="info">
                     <a>
-                        <span th:text="${user.username}"></span>
+                        <span >Usuario de prueba</span>
                         <br>
-                        <span class="label label-default" th:text="${user.username}" style="margin:5px;"></span>
+                        <span class="label label-default" style="margin:5px;">User</span>
                         <br>
-                        <span class="label label-default" th:text="${user.role}" style="margin:5px;"></span>
+                        <span class="label label-default" style="margin:5px;">Prueba</span>
                     </a>
                 </div>
             </div>
@@ -31,13 +31,13 @@
                 <li>
                     <a href="#">
                         <i class="fa fa-newspaper-o"></i>
-                        <p>Menu</p>
+                        <p>Single Menu</p>
                     </a>
                 </li>
                 <li>
                     <a data-toggle="collapse" href="#submenu">
                         <i class="fa fa-book"></i>
-                        <p>Menu 2
+                        <p>Dropdown menu
                             <b class="caret"></b>
                         </p>
                     </a>

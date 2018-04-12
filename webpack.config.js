@@ -9,12 +9,14 @@ module.exports = {
     name: 'main',
     entry: {
         main: './frontend/main.js',
+        vendor: './frontend/vendor.js',
         style: './frontend/sass/main.scss',
-        theme: './frontend/vendor/light-bootstrap-dashboard.css'
+        theme: './frontend/vendor/light-bootstrap-dashboard.css',
+        custom: './frontend/sass/custom.scss'
     },
     output: {
         path: path.resolve(__dirname, './src/main/resources/static/js/'),
-        publicPath: './',
+        publicPath: '/js/',
         filename: '[name].js'
     },
     module: {
@@ -106,6 +108,8 @@ module.exports = {
         extensions: ['*', '.js', '.vue', '.json']
     },
     devServer: {
+        port: 9000,
+        contentBase: path.join(__dirname, "/src/main/resources/static"),
         historyApiFallback: true,
         noInfo: true,
         overlay: true

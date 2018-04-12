@@ -4,7 +4,9 @@
         <side-menu></side-menu>
         <div class="main-panel scrollStyle">
             <div class="content">
-                <div class="container-fluid"></div>
+                <div class="container-fluid">
+                    <router-view></router-view>
+                </div>
             </div>
         </div>
     </div>
