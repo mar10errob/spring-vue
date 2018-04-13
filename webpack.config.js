@@ -9,7 +9,6 @@ module.exports = {
     name: 'main',
     entry: {
         main: './frontend/main.js',
-        vendor: './frontend/vendor.js',
         style: './frontend/sass/main.scss',
         theme: './frontend/vendor/light-bootstrap-dashboard.css',
         custom: './frontend/sass/custom.scss'
